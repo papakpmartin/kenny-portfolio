@@ -1,0 +1,122 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #111;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: #fff; color: #111; }
+a { color: inherit; text-decoration: none; }
+#app { min-height: 100vh; }
+
+.site-shell {
+  width: min(1200px, 92vw);
+  margin: 0 auto;
+  padding: 1.25rem 0 3rem;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0 1rem;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.brand { font-size: 0.95rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.nav { display: flex; gap: 1.25rem; }
+.nav a { font-size: 0.95rem; color: #444; transition: color 180ms ease; }
+.nav a:hover, .nav a:focus-visible { color: #000; }
+
+.hero { padding: 3.5rem 0 2rem; max-width: 760px; margin: 0 auto; text-align: center; }
+h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.05; letter-spacing: -0.015em; }
+.subhead { margin: 0; color: #444; font-size: 1.05rem; }
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+  padding-top: 1.25rem;
+}
+
+.project-card {
+  position: relative;
+  border: 1px solid #ececec;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 260ms ease-out, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.project-card:hover,
+.project-card:focus-visible {
+  transform: scale(1.035);
+  animation: card-hover-bounce 600ms cubic-bezier(0.22, 0.72, 0.2, 1) both;
+  border-color: #d8d8d8;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+@keyframes card-hover-bounce {
+  0% { transform: scale(1); }
+  60% { transform: scale(1.05); }
+  100% { transform: scale(1.035); }
+}
+
+.thumb { aspect-ratio: 4 / 3; width: 100%; display: block; object-fit: cover; border-bottom: 1px solid #ececec; }
+.meta { padding: 0.9rem 0.95rem 1rem; text-align: center; }
+.meta h2 { margin: 0; font-size: 1rem; font-weight: 600; }
+.meta p { margin: 0.35rem 0 0; font-size: 0.9rem; color: #666; }
+
+.project-page { padding-top: 2rem; }
+.project-hero { max-width: 760px; margin: 0 auto 1.75rem; text-align: center; }
+.project-kicker { margin: 0; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: #666; }
+.project-intro { margin: 0; color: #444; }
+
+.media-stream { display: grid; gap: 1.2rem; }
+.media-module { display: grid; gap: 1.2rem; }
+.module-full { grid-template-columns: 1fr; }
+.module-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.module-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.module-asymmetric-left { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); }
+.module-asymmetric-right { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
+.module-portrait-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.module-square-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.module-quad { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.module-six-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.module-eight-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.module-spacer { min-height: clamp(0.75rem, 2vw, 1.5rem); }
+.module-tall-stack { grid-template-columns: 1fr; }
+
+.media-item { margin: 0; border: 1px solid #ececec; background: #fff; }
+.media-item img { width: 100%; height: auto; display: block; object-fit: contain; }
+
+.project-footer { margin-top: 2rem; }
+.project-footer a { color: #444; }
+
+@media (max-width: 960px) {
+  .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .module-three,
+  .module-square-triptych,
+  .module-six-grid,
+  .module-eight-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  .topbar { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+  .hero { padding-top: 2rem; }
+  .project-grid,
+  .module-split,
+  .module-three,
+  .module-asymmetric-left,
+  .module-asymmetric-right,
+  .module-portrait-pair,
+  .module-square-triptych,
+  .module-quad,
+  .module-six-grid,
+  .module-eight-grid { grid-template-columns: 1fr; }
+}
