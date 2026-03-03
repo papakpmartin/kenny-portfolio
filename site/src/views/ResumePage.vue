@@ -1,14 +1,16 @@
 <template>
   <article class="resume-page" aria-labelledby="resume-name">
     <header class="resume-header">
-      <p class="resume-kicker">Resume</p>
-      <h1 id="resume-name">Kenneth Martin II</h1>
-      <p class="resume-role">Creative Director Candidate</p>
-      <p class="resume-contact">
-        659 Van Buren St NE, Minneapolis, MN 55413 ·
-        <a href="mailto:kpmartin2.work@outlook.com">kpmartin2.work@outlook.com</a> ·
+      <div>
+        <p class="resume-kicker">Resume</p>
+        <h1 id="resume-name">Kenneth Martin II</h1>
+        <p class="resume-role">Creative Director Candidate</p>
+      </div>
+      <address class="resume-contact" aria-label="Contact information">
+        <span>659 Van Buren St NE, Minneapolis, MN 55413</span>
+        <a href="mailto:kpmartin2.work@outlook.com">kpmartin2.work@outlook.com</a>
         <a href="tel:+16515038757">651-503-8757</a>
-      </p>
+      </address>
     </header>
 
     <section class="resume-section" aria-labelledby="experience-title">
