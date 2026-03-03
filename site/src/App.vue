@@ -4,6 +4,7 @@
       <RouterLink class="brand" to="/">Kenneth Martin II</RouterLink>
       <nav class="nav" aria-label="Primary">
         <RouterLink to="/">Work</RouterLink>
+        <RouterLink to="/resume">Resume</RouterLink>
       </nav>
     </header>
 
