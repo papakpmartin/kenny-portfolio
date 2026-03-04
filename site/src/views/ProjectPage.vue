@@ -15,8 +15,8 @@
       >
         <figure v-for="item in module.items" :key="item.src" class="media-item" :class="`shape-${item.shape}`">
           <picture>
-            <source v-if="asWebp(item.src)" :srcset="asWebp(item.src)" type="image/webp" />
-            <img :src="item.src" :alt="`${project.title} visual`" loading="lazy" />
+            <source v-if="asWebp(item.src)" :srcset="webpSrcSet(item.src)" sizes="(max-width: 640px) 100vw, 92vw" type="image/webp" />
+            <img :src="item.src" :alt="`${project.title} visual`" loading="lazy" decoding="async" />
           </picture>
         </figure>
       </div>
@@ -40,5 +40,12 @@ const project = computed(() => projectMap[route.params.slug])
 
 function asWebp(src) {
   return /\.(jpe?g|png)$/i.test(src) ? src.replace(/\.(jpe?g|png)$/i, '.webp') : null
+}
+
+function webpSrcSet(src) {
+  const webp = asWebp(src)
+  if (!webp) return ''
+  const variants = [640, 1200].map((w) => webp.replace('.webp', `-w${w}.webp`) + ` ${w}w`)
+  return `${variants.join(', ')}, ${webp} 2000w`
 }
 </script>

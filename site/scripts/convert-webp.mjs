@@ -4,6 +4,7 @@ import sharp from 'sharp'
 
 const publicDir = path.resolve('public')
 const exts = new Set(['.jpg', '.jpeg', '.png'])
+const responsiveWidths = [640, 1200, 2000]
 
 async function* walk(dir) {
   for (const entry of await readdir(dir, { withFileTypes: true })) {
@@ -16,30 +17,50 @@ async function* walk(dir) {
   }
 }
 
-function toWebpPath(file) {
+function parseFile(file) {
   const parsed = path.parse(file)
-  return path.join(parsed.dir, `${parsed.name}.webp`)
+  return {
+    dir: parsed.dir,
+    name: parsed.name,
+    ext: parsed.ext.toLowerCase(),
+    baseWebp: path.join(parsed.dir, `${parsed.name}.webp`),
+    variant: (w) => path.join(parsed.dir, `${parsed.name}-w${w}.webp`),
+  }
 }
 
 let converted = 0
+let variants = 0
 let skipped = 0
 
 for await (const file of walk(publicDir)) {
-  const ext = path.extname(file).toLowerCase()
+  const { ext, baseWebp, variant } = parseFile(file)
   if (!exts.has(ext)) continue
 
-  const out = toWebpPath(file)
-  await mkdir(path.dirname(out), { recursive: true })
+  await mkdir(path.dirname(baseWebp), { recursive: true })
 
   try {
+    const image = sharp(file)
+    const meta = await image.metadata()
+
     await sharp(file)
       .webp({ quality: 82, effort: 5 })
-      .toFile(out)
+      .toFile(baseWebp)
     converted += 1
+
+    const width = meta.width || 0
+    const widthsToWrite = responsiveWidths.filter((w) => w < width)
+
+    for (const w of widthsToWrite) {
+      await sharp(file)
+        .resize({ width: w, withoutEnlargement: true })
+        .webp({ quality: 80, effort: 5 })
+        .toFile(variant(w))
+      variants += 1
+    }
   } catch (err) {
     skipped += 1
     console.warn(`skip ${file}: ${err.message}`)
   }
 }
 
-console.log(`webp conversion complete: converted=${converted}, skipped=${skipped}`)
+console.log(`webp conversion complete: converted=${converted}, variants=${variants}, skipped=${skipped}`)
