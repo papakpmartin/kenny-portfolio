@@ -14,7 +14,10 @@
         :class="`module-${module.type}`"
       >
         <figure v-for="item in module.items" :key="item.src" class="media-item" :class="`shape-${item.shape}`">
-          <img :src="item.src" :alt="`${project.title} visual`" loading="lazy" />
+          <picture>
+            <source v-if="asWebp(item.src)" :srcset="asWebp(item.src)" type="image/webp" />
+            <img :src="item.src" :alt="`${project.title} visual`" loading="lazy" />
+          </picture>
         </figure>
       </div>
     </section>
@@ -34,4 +37,8 @@ import { projectMap } from '../data/projects'
 
 const route = useRoute()
 const project = computed(() => projectMap[route.params.slug])
+
+function asWebp(src) {
+  return /\.(jpe?g|png)$/i.test(src) ? src.replace(/\.(jpe?g|png)$/i, '.webp') : null
+}
 </script>

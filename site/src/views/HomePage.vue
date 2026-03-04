@@ -12,7 +12,10 @@
       :to="`/project/${project.slug}`"
       :aria-label="`Open case study: ${project.title}`"
     >
-      <img class="thumb" :src="project.cover" :alt="`${project.title} preview`" loading="lazy" />
+      <picture class="thumb-picture">
+        <source v-if="asWebp(project.cover)" :srcset="asWebp(project.cover)" type="image/webp" />
+        <img class="thumb" :src="project.cover" :alt="`${project.title} preview`" loading="lazy" />
+      </picture>
       <div class="meta">
         <h2>{{ project.title }}</h2>
         <p>{{ project.category }}</p>
@@ -24,4 +27,8 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 import { projects } from '../data/projects'
+
+function asWebp(src) {
+  return /\.(jpe?g|png)$/i.test(src) ? src.replace(/\.(jpe?g|png)$/i, '.webp') : null
+}
 </script>

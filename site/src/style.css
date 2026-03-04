@@ -67,6 +67,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   100% { transform: scale(1.035); }
 }
 
+.thumb-picture { display: block; }
 .thumb { aspect-ratio: 4 / 3; width: 100%; display: block; object-fit: cover; border-bottom: 1px solid #ececec; }
 .meta { padding: 0.9rem 0.95rem 1rem; text-align: center; }
 .meta h2 { margin: 0; font-size: 1rem; font-weight: 600; }
