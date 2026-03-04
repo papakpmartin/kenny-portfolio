@@ -48,13 +48,19 @@ for await (const file of walk(publicDir)) {
     converted += 1
 
     const width = meta.width || 0
-    const widthsToWrite = responsiveWidths.filter((w) => w < width)
 
-    for (const w of widthsToWrite) {
-      await sharp(file)
-        .resize({ width: w, withoutEnlargement: true })
-        .webp({ quality: 80, effort: 5 })
-        .toFile(variant(w))
+    for (const w of responsiveWidths) {
+      if (!width || width <= w) {
+        // ensure the variant file exists even when source is smaller than target width
+        await sharp(file)
+          .webp({ quality: 80, effort: 5 })
+          .toFile(variant(w))
+      } else {
+        await sharp(file)
+          .resize({ width: w, withoutEnlargement: true })
+          .webp({ quality: 80, effort: 5 })
+          .toFile(variant(w))
+      }
       variants += 1
     }
   } catch (err) {
