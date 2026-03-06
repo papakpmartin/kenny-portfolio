@@ -1,5 +1,17 @@
-# Vue 3 + Vite
+# Kenny Portfolio Site
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Vue + Vite portfolio website.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Quick start
+
+- Install: `npm ci`
+- Dev (LAN): `npm run dev:lan`
+- Build: `npm run build`
+- Preview (LAN): `npm run preview`
+
+Open from Mac: `http://<pi-lan-ip>:5173`
+
+## Notes
+
+- Includes image conversion helper: `npm run images:webp`
+- Use JS-only stack and plain CSS unless explicitly changed.
