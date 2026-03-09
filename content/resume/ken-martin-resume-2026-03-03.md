@@ -5,56 +5,59 @@
 
 ## Header
 - Name: Kenneth Martin II
-- Title: Creative Director Candidate
-- Address: 659 Van Buren St NE, Minneapolis, MN 55413
+- Title: Creative Director | Senior Creative Account Manager
+- Address: Minneapolis, MN
 - Email: kpmartin2.work@outlook.com
 - Phone: 651-503-8757
+
+## Professional Summary
+Creative account and production lead with experience building multi-channel campaigns across paid social, display, CTV, video, and print. Strong client-facing partner who translates business goals into clear creative direction, keeps cross-functional teams aligned, and drives projects from concept through launch.
 
 ## Experience
 
 ### Senior Creative Account Manager — Adtaxi
 - Dates: Sept 2021–Present
 - Type: Full-time
-- Location: Minneapolis, MN (Fully Remote)
-- Summary: Create digital ads for clients across automotive, construction, ecommerce, healthcare, live events, and retail.
+- Location: Minneapolis, MN (Remote)
+- Summary: Lead end-to-end creative development for cross-channel campaigns spanning paid social, display, CTV, video, digital out-of-home, and print.
 - Responsibilities:
-  - Produce creatives (paid social, display, CTV, pre-roll, YouTube, digital out-of-home, billboard, print)
-  - Lead calls with clients
-  - Design original ads (Adobe Photoshop, Adobe Premiere Pro) and write copy
-  - Send creative requests to production team; QA proofs
-  - Build mockups (Meta Creative Hub, Snapchat Creator Hub)
-  - Share for client review/approval; submit for publishing
-  - Track progress (Google Sheets, Monday.com)
-  - Train team on creative production workflow
+  - Own creative execution from intake through launch across multiple verticals
+  - Partner directly with clients to align campaign goals, timelines, and approvals
+  - Design ad concepts and write copy using Adobe Photoshop and Adobe Premiere Pro
+  - Coordinate production handoffs and maintain proof QA standards before release
+  - Build platform-ready mockups in Meta Creative Hub and Snapchat Creator Hub
+  - Track workflow and delivery status in Google Sheets and Monday.com
+  - Train teammates on creative production process and quality expectations
 
 ### Associate Project Manager — Wunderman Thompson
 - Dates: Sept 2019–Jan 2020
 - Type: Contract
 - Location: Minneapolis, MN
-- Summary: Joined Media Network team to produce holiday digital banner ads for Best Buy’s site.
+- Summary: Supported Media Network campaign delivery for Best Buy holiday digital banner launches.
 - Responsibilities:
-  - Kick off weekly banner ads with account managers, designers, and copywriters
-  - QA and deliver proofs
+  - Coordinated weekly banner production with account, design, and copy teams
+  - Managed proofing workflow, QA checks, and on-time delivery
 
 ### Account Coordinator Intern — Three Deep Marketing
 - Dates: Jan 2019–Aug 2019
 - Type: Internship
 - Location: Saint Paul, MN
-- Summary: Liaison between digital marketing agency and clients.
+- Summary: Served as a client-agency liaison across account support and digital production planning.
 - Responsibilities:
-  - Account Management: write client-facing materials (proposals, SOWs); lead client communications
-  - Digital Production: plan and facilitate deliverables; forecast teammate hours
+  - Developed client-facing documents, including proposals and SOWs
+  - Supported day-to-day client communications and coordination
+  - Planned deliverables and helped forecast team capacity and hours
 
 ### Marketing Manager — Madison Restaurant Group
 - Dates: Sept 2017–Oct 2018
 - Type: Full-time
 - Location: Saint Paul, MN
-- Summary: Promoted from host at PUBLIC kitchen + bar to corporate office; developed original digital and print marketing content for seven restaurant brands (including Handsome Hog and Gray Duck Tavern).
+- Summary: Promoted from front-of-house to corporate marketing; developed digital and print campaigns for seven restaurant brands, including Handsome Hog and Gray Duck Tavern.
 - Responsibilities:
-  - Manage 20 social media accounts (Instagram, Facebook, X)
-  - Edit and design seasonal menus
-  - Create marketing materials and print collateral
-  - Write monthly newsletters
+  - Managed 20 social media accounts across Instagram, Facebook, and X
+  - Designed and edited seasonal menu systems
+  - Produced marketing collateral for in-store and promotional use
+  - Wrote and distributed monthly email newsletters
 
 ## Education
 - Bachelor of Business Administration: Marketing — University of Wisconsin–Eau Claire
