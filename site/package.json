@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "dev:lan": "vite --host 0.0.0.0 --port 5173 --strictPort",
+    "prebuild": "npm run images:webp",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0 --port 4173 --strictPort",
     "images:webp": "node scripts/convert-webp.mjs"
