@@ -85,8 +85,20 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   font-size: 0.98rem;
 }
 
-.media-stream { display: grid; gap: 1.2rem; }
-.media-module { display: grid; gap: 1.2rem; }
+.media-stream {
+  display: grid;
+  gap: 1.2rem;
+  justify-items: center;
+}
+
+.media-module {
+  display: grid;
+  gap: 1.2rem;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  padding-inline: clamp(0.5rem, 2vw, 2rem);
+}
 .module-full { grid-template-columns: 1fr; }
 .module-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .module-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -103,8 +115,23 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 .module-spacer { min-height: clamp(0.75rem, 2vw, 1.5rem); }
 .module-tall-stack { grid-template-columns: 1fr; }
 
-.media-item { margin: 0; border: 1px solid #ececec; background: #fff; }
-.media-item img { width: 100%; height: auto; display: block; object-fit: contain; }
+.media-item {
+  margin: 0;
+  border: 1px solid #ececec;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: visible;
+}
+
+.media-item img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important;
+  display: block;
+  object-fit: contain !important;
+}
 
 @media (min-width: 961px) {
   .module-asymmetric-left {
