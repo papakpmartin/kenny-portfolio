@@ -44,3 +44,4 @@ Capture and organize all reusable project resources from the Behance profile int
 - 2026-03-10: Rolled back the site-wide no-crop/centering experiment after QA regression screenshots; restored prior baseline for targeted per-module fixes.
 - 2026-03-10: Completed additional rollback cleanup in `site/src/style.css` by restoring `.module-asymmetric-left` to original 7/5 columns and removing leftover ≥961px gap override that was shrinking the lead image.
 - 2026-03-10: Implemented LA-only asymmetric-pair prototype using intrinsic centered visual-unit behavior (`project-page--la-county-fair`): matched render heights, no crop, and unit-level centering without site-wide impact.
+- 2026-03-10: Tightened LA County Fair unit cadence by removing the extra spacer before the final eight-grid to normalize vertical rhythm between the last two visual units.

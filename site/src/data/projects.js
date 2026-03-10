@@ -34,7 +34,6 @@ export const projects = [
         { src: `${ASSET_BASE}projects/la-county-fair/80e211235159869.69657e59367d6.jpg`, shape: 'landscape' },
         { src: `${ASSET_BASE}projects/la-county-fair/b13027235159869.69657e59373d7.jpg`, shape: 'portrait' },
       ] },
-      { type: 'spacer', items: [] },
       { type: 'eight-grid', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/30bc76235159869.68d1c9a8e2038.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/la-county-fair/620b38235159869.68d1c9a8dff17.jpg`, shape: 'square' },
