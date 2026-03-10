@@ -90,7 +90,10 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 .module-full { grid-template-columns: 1fr; }
 .module-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .module-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.module-asymmetric-left { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); }
+.module-asymmetric-left {
+  grid-template-columns: minmax(0, 2.2fr) minmax(0, 0.8fr);
+  align-items: stretch;
+}
 .module-asymmetric-right { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
 .module-portrait-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .module-square-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -102,6 +105,32 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 
 .media-item { margin: 0; border: 1px solid #ececec; background: #fff; }
 .media-item img { width: 100%; height: auto; display: block; object-fit: contain; }
+
+@media (min-width: 1200px) {
+  .module-asymmetric-left {
+    height: clamp(320px, 34vw, 460px);
+    gap: 20px;
+  }
+
+  .module-asymmetric-left .media-item {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .module-asymmetric-left .media-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .module-asymmetric-left .media-item:first-child img {
+    object-position: center 38%;
+  }
+
+  .module-asymmetric-left .media-item:last-child img {
+    object-position: center top;
+  }
+}
 
 .project-footer { margin-top: 2rem; }
 .project-footer a { color: #444; }
