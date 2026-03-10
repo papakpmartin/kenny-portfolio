@@ -97,6 +97,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   width: 100%;
   justify-content: center;
   justify-items: center;
+  align-items: start;
   padding-inline: clamp(0.5rem, 2vw, 2rem);
 }
 .module-full { grid-template-columns: 1fr; }
@@ -122,6 +123,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  align-self: start;
   overflow: visible;
 }
 
