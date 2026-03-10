@@ -43,3 +43,4 @@ Capture and organize all reusable project resources from the Behance profile int
 - 2026-03-10: Reworked LA County Fair paired module to enforce no-crop behavior (removed forced shared-height cover-crop treatment, set asymmetric pair to top-aligned natural image heights) after QA showed right-image clipping and left-image phantom whitespace.
 - 2026-03-10: Rolled back the site-wide no-crop/centering experiment after QA regression screenshots; restored prior baseline for targeted per-module fixes.
 - 2026-03-10: Completed additional rollback cleanup in `site/src/style.css` by restoring `.module-asymmetric-left` to original 7/5 columns and removing leftover ≥961px gap override that was shrinking the lead image.
+- 2026-03-10: Implemented LA-only asymmetric-pair prototype using intrinsic centered visual-unit behavior (`project-page--la-county-fair`): matched render heights, no crop, and unit-level centering without site-wide impact.

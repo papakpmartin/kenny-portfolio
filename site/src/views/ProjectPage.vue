@@ -1,5 +1,5 @@
 <template>
-  <article v-if="project" class="project-page">
+  <article v-if="project" class="project-page" :class="`project-page--${project.slug}`">
     <header class="project-hero">
       <p class="project-kicker">{{ project.category }}</p>
       <h1>{{ project.title }}</h1>

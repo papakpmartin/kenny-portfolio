@@ -103,6 +103,33 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 .media-item { margin: 0; border: 1px solid #ececec; background: #fff; }
 .media-item img { width: 100%; height: auto; display: block; object-fit: contain; }
 
+/* LA County Fair: asymmetric pairs as intrinsic centered visual units (no crop, matched heights) */
+@media (min-width: 961px) {
+  .project-page--la-county-fair .module-asymmetric-left {
+    --la-pair-height: clamp(280px, 28vw, 420px);
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    width: fit-content;
+    max-width: 100%;
+    margin-inline: auto;
+    grid-template-columns: none;
+  }
+
+  .project-page--la-county-fair .module-asymmetric-left .media-item {
+    flex: 0 0 auto;
+    align-self: flex-start;
+  }
+
+  .project-page--la-county-fair .module-asymmetric-left .media-item img {
+    width: auto;
+    height: var(--la-pair-height);
+    max-width: 100%;
+    object-fit: contain;
+  }
+}
+
 .project-footer { margin-top: 2rem; }
 .project-footer a { color: #444; }
 
