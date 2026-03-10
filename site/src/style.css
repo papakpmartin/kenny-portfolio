@@ -92,7 +92,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 .module-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .module-asymmetric-left {
   grid-template-columns: minmax(0, 72%) minmax(0, 28%);
-  align-items: stretch;
+  align-items: start;
 }
 .module-asymmetric-right { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
 .module-portrait-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -108,27 +108,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 
 @media (min-width: 961px) {
   .module-asymmetric-left {
-    height: clamp(360px, 32vw, 430px);
     gap: 20px;
-  }
-
-  .module-asymmetric-left .media-item {
-    height: 100%;
-    overflow: hidden;
-  }
-
-  .module-asymmetric-left .media-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .module-asymmetric-left .media-item:first-child img {
-    object-position: center 38%;
-  }
-
-  .module-asymmetric-left .media-item:last-child img {
-    object-position: center top;
   }
 }
 
