@@ -39,3 +39,4 @@ Capture and organize all reusable project resources from the Behance profile int
 
 ## Progress Log
 - 2026-03-10: Tuned LA County Fair desktop split module to match Behance visual-unit behavior (locked shared height + correlated image framing) with 72/28 columns and desktop clamp height 360–430px in `site/src/style.css`.
+- 2026-03-10: Fixed white-gap regression under LA County Fair paired module by extending fill/crop rules from ≥1200px down to ≥961px so stretched cards and image fill behavior stay aligned across laptop+desktop widths.

@@ -106,7 +106,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 .media-item { margin: 0; border: 1px solid #ececec; background: #fff; }
 .media-item img { width: 100%; height: auto; display: block; object-fit: contain; }
 
-@media (min-width: 1200px) {
+@media (min-width: 961px) {
   .module-asymmetric-left {
     height: clamp(360px, 32vw, 430px);
     gap: 20px;
