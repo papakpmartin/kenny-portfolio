@@ -36,3 +36,6 @@ Capture and organize all reusable project resources from the Behance profile int
 ### Notes
 - Rights confirmed by user (all works are their own).
 - Prefer highest practical quality and preserve original filenames where possible.
+
+## Progress Log
+- 2026-03-10: Tuned LA County Fair desktop split module to match Behance visual-unit behavior (locked shared height + correlated image framing) with 72/28 columns and desktop clamp height 360–430px in `site/src/style.css`.
