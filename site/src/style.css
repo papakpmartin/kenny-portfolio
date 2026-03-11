@@ -86,8 +86,8 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   font-size: 0.98rem;
 }
 
-.media-stream { display: grid; gap: 1.2rem; }
-.media-module { display: grid; gap: 1.2rem; }
+.media-stream { display: grid; gap: 2.4rem; }
+.media-module { display: grid; gap: 2.4rem; }
 
 /* Per-unit style controls */
 .unit--full { width: 100%; }
@@ -95,7 +95,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   width: min(100%, calc(100% - clamp(3rem, 12vw, 10rem)));
   margin-inline: auto;
 }
-.unit-gap--tight { gap: 0.2rem; }
+.unit-gap--tight { gap: 2.4rem; }
 .module-full { grid-template-columns: 1fr; }
 .module-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .module-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -121,9 +121,9 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
 }
 
-/* LA-only tuning for new full/inset + tight spacing controls */
+/* LA-only tuning for new full/inset + spacing controls */
 .project-page--la-county-fair .unit-gap--tight {
-  gap: 0 !important;
+  gap: 2.4rem !important;
 }
 .project-page--la-county-fair .unit--inset {
   width: min(100%, calc(100% - clamp(8rem, 20vw, 18rem))) !important;
@@ -138,10 +138,10 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 @media (min-width: 641px) {
   .project-page .module-asymmetric-left {
     /* Source aspect ratios: wide 1200/628, narrow 1400/2489 */
-    grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr);
+    grid-template-columns: minmax(0, 1.910828fr) minmax(0, 0.562475fr);
     align-items: start;
     justify-content: center;
-    gap: 1.2rem;
+    gap: 2.4rem;
   }
 
   .project-page .module-asymmetric-left .media-item {
@@ -270,7 +270,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   /* Project-page rule: keep desktop single-row multi-image groups on one line */
   .project-page .module-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .project-page .module-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .project-page .module-asymmetric-left { grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr); }
+  .project-page .module-asymmetric-left { grid-template-columns: minmax(0, 1.910828fr) minmax(0, 0.562475fr); }
   .project-page .module-asymmetric-right { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
   .project-page .module-portrait-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .project-page .module-square-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -296,10 +296,10 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   .project-page .module-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .project-page .module-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .project-page .module-asymmetric-left {
-    grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr);
+    grid-template-columns: minmax(0, 1.910828fr) minmax(0, 0.562475fr);
     align-items: start;
     justify-content: center;
-    gap: 1.2rem;
+    gap: 2.4rem;
   }
   .project-page .module-asymmetric-right { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
   .project-page .module-portrait-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -325,7 +325,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 /* Hard lock for project pages: keep desktop one-line multi-image groups one-line at all widths */
 .project-page .module-split { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
 .project-page .module-three { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
-.project-page .module-asymmetric-left { grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr) !important; }
+.project-page .module-asymmetric-left { grid-template-columns: minmax(0, 1.910828fr) minmax(0, 0.562475fr) !important; }
 .project-page .module-asymmetric-right { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr) !important; }
 .project-page .module-portrait-pair { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
 .project-page .module-square-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
