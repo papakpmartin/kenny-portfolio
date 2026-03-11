@@ -47,3 +47,4 @@ Capture and organize all reusable project resources from the Behance profile int
 - 2026-03-10: Tightened LA County Fair unit cadence by removing the extra spacer before the final eight-grid to normalize vertical rhythm between the last two visual units.
 - 2026-03-10: Updated LA asymmetric-unit sizing priority to maximize border reach while preserving matched-height + centered-unit constraints; increased shared render-height clamp (340px/34vw/560px).
 - 2026-03-10: Switched LA asymmetric pairs to a CSS-only ratio-driven recipe (columns proportional to native image aspect ratios) so units fill available width while keeping both images uncropped and equal-height without JS.
+- 2026-03-10: Patched LA asymmetric modules to neutralize inherited `.media-module` internal gap (`gap: 0`) and validated locally with headless Chromium desktop+narrow screenshots before commit.
