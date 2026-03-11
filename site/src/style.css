@@ -100,11 +100,11 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 .module-eight-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 
 /* LA County Fair: lock unit 2 + unit 7 desktop compositions */
-.project-page--la-county-fair .module-six-grid {
+.project-page .module-six-grid {
   grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
 }
 
-.project-page--la-county-fair .module-eight-grid {
+.project-page .module-eight-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
 }
 .module-spacer { min-height: clamp(0.75rem, 2vw, 1.5rem); }
@@ -115,7 +115,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 
 /* LA County Fair: bespoke asymmetric recipe using native image ratios (no crop, matched heights) */
 @media (min-width: 641px) {
-  .project-page--la-county-fair .module-asymmetric-left {
+  .project-page .module-asymmetric-left {
     /* Source aspect ratios: wide 1200/628, narrow 1400/2489 */
     grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr);
     align-items: start;
@@ -123,7 +123,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
     gap: 1.2rem;
   }
 
-  .project-page--la-county-fair .module-asymmetric-left .media-item {
+  .project-page .module-asymmetric-left .media-item {
     border: none;
   }
 }
@@ -246,9 +246,9 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   .module-six-grid,
   .module-eight-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
-  /* Keep LA unit 2 and unit 7 layouts unchanged on smaller windows */
-  .project-page--la-county-fair .module-six-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-  .project-page--la-county-fair .module-eight-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  /* Keep unit 2 and unit 7 layouts unchanged on smaller windows */
+  .project-page .module-six-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .project-page .module-eight-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 
 @media (max-width: 640px) {
@@ -265,20 +265,20 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   .module-six-grid,
   .module-eight-grid { grid-template-columns: 1fr; }
 
-  /* Keep LA asymmetric visual-unit recipe on small screens too */
-  .project-page--la-county-fair .module-asymmetric-left {
+  /* Keep asymmetric visual-unit recipe on small screens too */
+  .project-page .module-asymmetric-left {
     grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr);
     align-items: start;
     justify-content: center;
     gap: 1.2rem;
   }
 
-  .project-page--la-county-fair .module-asymmetric-left .media-item {
+  .project-page .module-asymmetric-left .media-item {
     border: none;
   }
 
-  .project-page--la-county-fair .module-six-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-  .project-page--la-county-fair .module-eight-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .project-page .module-six-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .project-page .module-eight-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 
   .resume-header {
     grid-template-columns: 1fr;
