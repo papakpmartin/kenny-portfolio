@@ -246,7 +246,13 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   .module-six-grid,
   .module-eight-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
-  /* Keep unit 2 and unit 7 layouts unchanged on smaller windows */
+  /* Project-page rule: keep desktop single-row multi-image groups on one line */
+  .project-page .module-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .project-page .module-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .project-page .module-asymmetric-left { grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr); }
+  .project-page .module-asymmetric-right { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
+  .project-page .module-portrait-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .project-page .module-square-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .project-page .module-six-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
   .project-page .module-eight-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
@@ -265,13 +271,18 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   .module-six-grid,
   .module-eight-grid { grid-template-columns: 1fr; }
 
-  /* Keep asymmetric visual-unit recipe on small screens too */
+  /* Project-page rule: keep desktop single-row multi-image groups on one line */
+  .project-page .module-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .project-page .module-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .project-page .module-asymmetric-left {
     grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr);
     align-items: start;
     justify-content: center;
     gap: 1.2rem;
   }
+  .project-page .module-asymmetric-right { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
+  .project-page .module-portrait-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .project-page .module-square-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
   .project-page .module-asymmetric-left .media-item {
     border: none;

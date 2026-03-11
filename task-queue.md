@@ -50,3 +50,4 @@ Capture and organize all reusable project resources from the Behance profile int
 - 2026-03-10: Patched LA asymmetric modules to neutralize inherited `.media-module` internal gap (`gap: 0`) and validated locally with headless Chromium desktop+narrow screenshots before commit.
 - 2026-03-11: Updated LA Unit 2 + Unit 7 layout locks across all breakpoints: Unit 2 now remains one row of six; Unit 7 remains four-up (two rows of four with eight items), including on small windows.
 - 2026-03-11: Extended the new LA visual-unit ruleset to all project pages (global project-page selectors for asymmetric pairs + six/eight clusters) per user request to propagate all LA adjustments to the other eight pages.
+- 2026-03-11: Added universal project-page responsiveness rule: multi-image groups that are single-row at desktop remain single-row on smaller windows (unless explicitly requested otherwise).
