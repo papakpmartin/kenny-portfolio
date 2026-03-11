@@ -131,7 +131,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 .module-spacer { min-height: clamp(0.75rem, 2vw, 1.5rem); }
 .module-tall-stack { grid-template-columns: 1fr; }
 
-.media-item { margin: 0; border: 1px solid #ececec; background: #fff; }
+.media-item { margin: 0; border: none; background: #fff; }
 .media-item img { width: 100%; height: auto; display: block; object-fit: contain; }
 
 /* LA County Fair: bespoke asymmetric recipe using native image ratios (no crop, matched heights) */
