@@ -27,7 +27,7 @@ export const projects = [
         { src: `${ASSET_BASE}projects/la-county-fair/ee25c3235159869.69657e57ee4ed.jpg`, shape: 'landscape' },
         { src: `${ASSET_BASE}projects/la-county-fair/397c89235159869.69657e57edec5.jpg`, shape: 'landscape' },
       ] },
-      { type: 'full', widthMode: 'full', items: [
+      { type: 'full', widthMode: 'inset', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/319aae235159869.69657e58999e7.jpg`, shape: 'landscape' },
       ] },
       { type: 'asymmetric-left', widthMode: 'inset', gapMode: 'tight', items: [
