@@ -48,6 +48,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 .project-card {
   position: relative;
   border: 1px solid #ececec;
+  border-radius: 0.3rem;
   background: #fff;
   overflow: hidden;
   transition: transform 260ms ease-out, border-color 180ms ease, box-shadow 180ms ease;
@@ -107,7 +108,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 @media (min-width: 961px) {
   .project-page--la-county-fair .module-asymmetric-left {
     /* Source aspect ratios: wide 1200/628, narrow 1400/2489 */
-    grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5625fr);
+    grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr);
     align-items: start;
     justify-content: center;
     gap: 0;
