@@ -107,6 +107,11 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 .project-page .module-eight-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
 }
+
+/* International Mission Board: each 4-image group should stay 4-up */
+.project-page--international-mission-board .module-quad {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
 .module-spacer { min-height: clamp(0.75rem, 2vw, 1.5rem); }
 .module-tall-stack { grid-template-columns: 1fr; }
 

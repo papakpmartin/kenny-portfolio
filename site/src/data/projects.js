@@ -56,19 +56,16 @@ export const projects = [
       { type: 'full', items: [
         { src: `${ASSET_BASE}projects/imaginarium/48c324241832025.6960510f0272a.jpg`, shape: 'square' },
       ] },
-      { type: 'spacer', items: [] },
       { type: 'three', items: [
         { src: `${ASSET_BASE}projects/imaginarium/8b5d5a241832025.6960510f86de9.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/imaginarium/bc5719241832025.6960510f86901.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/imaginarium/753c41241832025.6960510f8620b.jpg`, shape: 'square' },
       ] },
-      { type: 'spacer', items: [] },
       { type: 'three', items: [
         { src: `${ASSET_BASE}projects/imaginarium/1d8544241832025.696051105e263.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/imaginarium/21328c241832025.696051105e6e2.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/imaginarium/29a7ca241832025.696051105db3c.jpg`, shape: 'portrait' },
       ] },
-      { type: 'spacer', items: [] },
     ]
   },
   {
