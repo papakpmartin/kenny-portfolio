@@ -14,7 +14,11 @@
         v-for="(module, idx) in project.modules"
         :key="`${project.slug}-${idx}`"
         class="media-module"
-        :class="`module-${module.type}`"
+        :class="[
+          `module-${module.type}`,
+          module.widthMode ? `unit--${module.widthMode}` : '',
+          module.gapMode ? `unit-gap--${module.gapMode}` : ''
+        ]"
       >
         <figure v-for="item in module.items" :key="item.src" class="media-item" :class="`shape-${item.shape}`">
           <picture>

@@ -88,6 +88,14 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 
 .media-stream { display: grid; gap: 1.2rem; }
 .media-module { display: grid; gap: 1.2rem; }
+
+/* Per-unit style controls */
+.unit--full { width: 100%; }
+.unit--inset {
+  width: min(100%, calc(100% - clamp(1rem, 4vw, 3rem)));
+  margin-inline: auto;
+}
+.unit-gap--tight { gap: 0.6rem; }
 .module-full { grid-template-columns: 1fr; }
 .module-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .module-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -111,6 +119,11 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 /* International Mission Board: each 4-image group should stay 4-up */
 .project-page--international-mission-board .module-quad {
   grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+
+/* LA-only tuning for new full/inset + tight spacing controls */
+.project-page--la-county-fair .unit-gap--tight {
+  gap: 0.6rem !important;
 }
 .module-spacer { min-height: clamp(0.75rem, 2vw, 1.5rem); }
 .module-tall-stack { grid-template-columns: 1fr; }

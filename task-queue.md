@@ -53,3 +53,4 @@ Capture and organize all reusable project resources from the Behance profile int
 - 2026-03-11: Added universal project-page responsiveness rule: multi-image groups that are single-row at desktop remain single-row on smaller windows (unless explicitly requested otherwise).
 - 2026-03-11: Escalated to hard-lock selectors (`!important`) for project-page one-line multi-image groups to prevent breakpoint fallbacks from re-stacking modules during QA.
 - 2026-03-11: Imaginarium spacing normalized by removing spacer modules between visual units; International Mission Board updated so each quad module renders as a 4-up unit across breakpoints.
+- 2026-03-11: Added LA-only per-unit style controls (`widthMode: full|inset`, `gapMode: tight`) with supporting CSS classes; applied to LA modules to tighten intra-unit spacing and introduce reusable full/inset width behavior.
