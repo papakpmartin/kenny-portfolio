@@ -252,6 +252,18 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   .module-six-grid,
   .module-eight-grid { grid-template-columns: 1fr; }
 
+  /* Keep LA asymmetric visual-unit recipe on small screens too */
+  .project-page--la-county-fair .module-asymmetric-left {
+    grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr);
+    align-items: start;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  .project-page--la-county-fair .module-asymmetric-left .media-item {
+    border: none;
+  }
+
   .resume-header {
     grid-template-columns: 1fr;
     align-items: start;
