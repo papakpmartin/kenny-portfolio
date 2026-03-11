@@ -113,6 +113,10 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
     justify-content: center;
     gap: 0;
   }
+
+  .project-page--la-county-fair .module-asymmetric-left .media-item {
+    border: none;
+  }
 }
 
 .project-footer { margin-top: 2rem; }
