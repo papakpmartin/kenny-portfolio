@@ -300,3 +300,13 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
     text-align: left;
   }
 }
+
+/* Hard lock for project pages: keep desktop one-line multi-image groups one-line at all widths */
+.project-page .module-split { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+.project-page .module-three { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+.project-page .module-asymmetric-left { grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr) !important; }
+.project-page .module-asymmetric-right { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr) !important; }
+.project-page .module-portrait-pair { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+.project-page .module-square-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+.project-page .module-six-grid { grid-template-columns: repeat(6, minmax(0, 1fr)) !important; }
+.project-page .module-eight-grid { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
