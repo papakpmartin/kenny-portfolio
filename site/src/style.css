@@ -105,13 +105,13 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 .media-item img { width: 100%; height: auto; display: block; object-fit: contain; }
 
 /* LA County Fair: bespoke asymmetric recipe using native image ratios (no crop, matched heights) */
-@media (min-width: 961px) {
+@media (min-width: 641px) {
   .project-page--la-county-fair .module-asymmetric-left {
     /* Source aspect ratios: wide 1200/628, narrow 1400/2489 */
     grid-template-columns: minmax(0, 1.9108fr) minmax(0, 0.5657fr);
     align-items: start;
     justify-content: center;
-    gap: 0;
+    gap: 1.2rem;
   }
 
   .project-page--la-county-fair .module-asymmetric-left .media-item {
