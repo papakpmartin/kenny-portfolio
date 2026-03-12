@@ -6,14 +6,8 @@ export const projects = [
     title: 'LA County Fair',
     category: 'Campaign / Experience',
     cover: `${ASSET_BASE}portfolio/01-la-county-fair.jpg`,
-    intro: 'Festival identity moments, signage clusters, and campaign rollout.',
-    story: `To encourage ticket sales, we created fresh designs for our paid social campaign.
-
-The client provided a wonderful branding kit with an abundance of colors, icons, and high-quality photos.
-
-I paired each of my favorite photos with its most complementary color. I added their hand-drawn icons to each design. Then I sequenced the images in the most visually-appealing and logical way I could.
-
-The client received beautiful, colorful, clear ads that featured many perks of their event.`,
+    intro: '',
+    story: `To encourage ticket sales, we created fresh designs for our paid social campaign. The client provided a wonderful branding kit with an abundance of colors, icons, and high-quality photos. I paired each of my favorite photos with its most complementary color. I added their hand-drawn icons to each design. Then I sequenced the images in the most visually-appealing and logical way I could. The client received beautiful, colorful, clear ads that featured many perks of their event.`,
     modules: [
       { type: 'full', widthMode: 'full', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/e3bd1b235159869.68d1c9a189085.jpg`, shape: 'landscape' },

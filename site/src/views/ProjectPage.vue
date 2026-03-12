@@ -3,7 +3,7 @@
     <header class="project-hero">
       <p class="project-kicker">{{ project.category }}</p>
       <h1>{{ project.title }}</h1>
-      <p class="project-intro">{{ project.intro }}</p>
+      <p v-if="project.intro" class="project-intro">{{ project.intro }}</p>
       <p v-if="project.story" class="project-story">{{ project.story }}</p>
     </header>
 
