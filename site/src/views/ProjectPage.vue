@@ -4,9 +4,7 @@
       <p class="project-kicker">{{ project.category }}</p>
       <h1>{{ project.title }}</h1>
       <p class="project-intro">{{ project.intro }}</p>
-      <p class="project-story">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod, nibh at interdum hendrerit, purus felis volutpat mi, vitae gravida neque ipsum at justo. Donec porttitor, nibh sed facilisis tincidunt, odio turpis vehicula erat, et posuere sapien lorem non sem.
-      </p>
+      <p v-if="project.story" class="project-story">{{ project.story }}</p>
     </header>
 
     <section class="media-stream">
