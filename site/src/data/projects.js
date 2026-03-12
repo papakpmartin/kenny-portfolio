@@ -52,7 +52,7 @@ export const projects = [
     title: 'Imaginarium',
     category: 'Brand / Campaign',
     cover: `${ASSET_BASE}portfolio/02-imaginarium.jpg`,
-    intro: 'Event campaign sequence mixing neon scenes, banners, and social cutdowns.',
+    intro: '',
     modules: [
       { type: 'full', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/imaginarium/48c324241832025.6960510f0272a.jpg`, shape: 'square' },
@@ -74,7 +74,7 @@ export const projects = [
     title: 'JustCBD',
     category: 'Brand / Packaging',
     cover: `${ASSET_BASE}portfolio/03-justcbd.jpg`,
-    intro: 'Packaging-led rollout shown as one long hero followed by paired detail passes.',
+    intro: '',
     modules: [
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/justcbd/59134c235038001.696574841cba5.jpg`, shape: 'portrait' },
@@ -88,7 +88,7 @@ export const projects = [
     title: 'GoodCook',
     category: 'Brand / Product',
     cover: `${ASSET_BASE}portfolio/04-goodcook.jpg`,
-    intro: 'Kitchen product campaign with vertical storytelling and dense comparison clusters.',
+    intro: '',
     modules: [
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/goodcook/aa76ee241757217.695ee6ec37216.jpg`, shape: 'portrait' },
@@ -112,7 +112,7 @@ export const projects = [
     title: 'CLEARSTEM Skincare',
     category: 'Brand / Digital',
     cover: `${ASSET_BASE}portfolio/05-clearstem.jpg`,
-    intro: 'Skincare launch visuals presented as clean stacked frames with soft pacing.',
+    intro: '',
     modules: [
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/clearstem-skincare/4a560a235038023.68d1c203af4cc.jpg`, shape: 'portrait' },
@@ -126,7 +126,7 @@ export const projects = [
     title: 'UCR Health',
     category: 'Healthcare / Digital',
     cover: `${ASSET_BASE}portfolio/06-ucr-health.jpg`,
-    intro: 'Healthcare campaign sequence blending broad hero contexts with UI-focused modules.',
+    intro: '',
     modules: [
       { type: 'split', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ucr-health/32dd7f241945529.6962ea40c21c8.png`, shape: 'landscape' },
@@ -145,7 +145,7 @@ export const projects = [
     title: 'International Mission Board',
     category: 'Digital / Storytelling',
     cover: `${ASSET_BASE}portfolio/07-international-mission-board.jpg`,
-    intro: 'Story-led identity and social assets grouped from logo/opening marks into campaign blocks.',
+    intro: '',
     modules: [
       { type: 'quad', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/international-mission-board/e50e50241684949.695d9a2700d76.jpg`, shape: 'square' },
@@ -172,7 +172,7 @@ export const projects = [
     title: 'NutriFusion',
     category: 'Brand / Campaign',
     cover: `${ASSET_BASE}portfolio/08-nutrifusion.jpg`,
-    intro: 'Nutrition brand campaign with even square rhythm and alternating pair/triptych beats.',
+    intro: '',
     modules: [
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/nutrifusion/dcb792235038133.69657a48243fa.jpg`, shape: 'square' },
@@ -191,7 +191,7 @@ export const projects = [
     title: 'Ecco Bella',
     category: 'Beauty / Brand',
     cover: `${ASSET_BASE}portfolio/09-ecco-bella.jpg`,
-    intro: 'Beauty campaign shown in three stacked editorial frames.',
+    intro: '',
     modules: [
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ecco-bella/a07ef9241887961.696173e7969ae.jpg`, shape: 'portrait' },
