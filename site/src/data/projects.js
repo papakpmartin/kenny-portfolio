@@ -9,7 +9,7 @@ export const projects = [
     intro: '',
     story: `To encourage ticket sales, we created fresh designs for our paid social campaign. The client provided a wonderful branding kit with an abundance of colors, icons, and high-quality photos. I paired each of my favorite photos with its most complementary color. I added their hand-drawn icons to each design. Then I sequenced the images in the most visually-appealing and logical way I could. The client received beautiful, colorful, clear ads that featured many perks of their event.`,
     modules: [
-      { type: 'full', widthMode: 'full', items: [
+      { type: 'full', widthMode: 'inset', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/e3bd1b235159869.68d1c9a189085.jpg`, shape: 'landscape' },
       ] },
       { type: 'six-grid', widthMode: 'inset', gapMode: 'tight', items: [
