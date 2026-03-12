@@ -11,7 +11,7 @@ export const projects = [
       { type: 'full', widthMode: 'full', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/e3bd1b235159869.68d1c9a189085.jpg`, shape: 'landscape' },
       ] },
-      { type: 'six-grid', widthMode: 'full', gapMode: 'tight', items: [
+      { type: 'six-grid', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/5039ca235159869.68d1c9a7af8f1.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/la-county-fair/da7a19235159869.68d1c9a7ade7e.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/la-county-fair/90fb2c235159869.68d1c9a7ad9c3.jpg`, shape: 'square' },
@@ -53,15 +53,15 @@ export const projects = [
     cover: `${ASSET_BASE}portfolio/02-imaginarium.jpg`,
     intro: 'Event campaign sequence mixing neon scenes, banners, and social cutdowns.',
     modules: [
-      { type: 'full', items: [
+      { type: 'full', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/imaginarium/48c324241832025.6960510f0272a.jpg`, shape: 'square' },
       ] },
-      { type: 'three', items: [
+      { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/imaginarium/8b5d5a241832025.6960510f86de9.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/imaginarium/bc5719241832025.6960510f86901.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/imaginarium/753c41241832025.6960510f8620b.jpg`, shape: 'square' },
       ] },
-      { type: 'three', items: [
+      { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/imaginarium/1d8544241832025.696051105e263.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/imaginarium/21328c241832025.696051105e6e2.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/imaginarium/29a7ca241832025.696051105db3c.jpg`, shape: 'portrait' },
@@ -75,7 +75,7 @@ export const projects = [
     cover: `${ASSET_BASE}portfolio/03-justcbd.jpg`,
     intro: 'Packaging-led rollout shown as one long hero followed by paired detail passes.',
     modules: [
-      { type: 'three', items: [
+      { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/justcbd/59134c235038001.696574841cba5.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/justcbd/d14787235038001.696574841ba29.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/justcbd/4400de235038001.696574841d5a5.jpg`, shape: 'portrait' },
@@ -89,17 +89,17 @@ export const projects = [
     cover: `${ASSET_BASE}portfolio/04-goodcook.jpg`,
     intro: 'Kitchen product campaign with vertical storytelling and dense comparison clusters.',
     modules: [
-      { type: 'three', items: [
+      { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/goodcook/aa76ee241757217.695ee6ec37216.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/goodcook/b0ca9e241757217.695ee6ec37b84.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/goodcook/1b2294241757217.695ee6ec39255.jpg`, shape: 'portrait' },
       ] },
-      { type: 'three', items: [
+      { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/goodcook/4fa6e7241757217.695ee6ed2beaf.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/goodcook/746992241757217.695ee6ed2b6ed.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/goodcook/8e67ab241757217.695ee6ed2c3ac.jpg`, shape: 'portrait' },
       ] },
-      { type: 'three', items: [
+      { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/goodcook/fa8867241757217.695ee6ee15980.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/goodcook/5550d5241757217.695ee6ee152d5.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/goodcook/6988ee241757217.695ee6ee14e1d.jpg`, shape: 'portrait' },
@@ -113,7 +113,7 @@ export const projects = [
     cover: `${ASSET_BASE}portfolio/05-clearstem.jpg`,
     intro: 'Skincare launch visuals presented as clean stacked frames with soft pacing.',
     modules: [
-      { type: 'three', items: [
+      { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/clearstem-skincare/4a560a235038023.68d1c203af4cc.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/clearstem-skincare/903ee1235038023.68d1c203aee3b.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/clearstem-skincare/ebeef0235038023.68d1c203af8f7.jpg`, shape: 'portrait' },
@@ -127,11 +127,11 @@ export const projects = [
     cover: `${ASSET_BASE}portfolio/06-ucr-health.jpg`,
     intro: 'Healthcare campaign sequence blending broad hero contexts with UI-focused modules.',
     modules: [
-      { type: 'split', items: [
+      { type: 'split', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ucr-health/32dd7f241945529.6962ea40c21c8.png`, shape: 'landscape' },
         { src: `${ASSET_BASE}projects/ucr-health/941d57241945529.6962ea40c1269.png`, shape: 'landscape' },
       ] },
-      { type: 'quad', items: [
+      { type: 'quad', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ucr-health/08f6e5241945529.6965831a9031b.png`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/ucr-health/acefa4241945529.6965831a8fadf.png`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/ucr-health/53bf78241945529.6962ea423f6cf.png`, shape: 'portrait' },
@@ -146,19 +146,19 @@ export const projects = [
     cover: `${ASSET_BASE}portfolio/07-international-mission-board.jpg`,
     intro: 'Story-led identity and social assets grouped from logo/opening marks into campaign blocks.',
     modules: [
-      { type: 'quad', items: [
+      { type: 'quad', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/international-mission-board/e50e50241684949.695d9a2700d76.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/international-mission-board/bbc0a8241684949.695d9a270030e.png`, shape: 'square' },
         { src: `${ASSET_BASE}projects/international-mission-board/9308dc241684949.695d9a26f3fa2.png`, shape: 'square' },
         { src: `${ASSET_BASE}projects/international-mission-board/b3ed85241684949.695d9a2701272.jpg`, shape: 'square' },
       ] },
-      { type: 'quad', items: [
+      { type: 'quad', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/international-mission-board/234c0e241684949.695d9a27d5e1c.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/international-mission-board/fed7a8241684949.695d9a27d4d10.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/international-mission-board/cc4a8d241684949.695d9a27d4433.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/international-mission-board/3a2ef3241684949.695d9a27d5603.jpg`, shape: 'square' },
       ] },
-      { type: 'quad', items: [
+      { type: 'quad', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/international-mission-board/65bc40241684949.695d9a29be25a.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/international-mission-board/56af94241684949.695d9a29bcb3b.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/international-mission-board/e219d6241684949.695d9a29bd8d2.png`, shape: 'square' },
@@ -173,12 +173,12 @@ export const projects = [
     cover: `${ASSET_BASE}portfolio/08-nutrifusion.jpg`,
     intro: 'Nutrition brand campaign with even square rhythm and alternating pair/triptych beats.',
     modules: [
-      { type: 'three', items: [
+      { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/nutrifusion/dcb792235038133.69657a48243fa.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/nutrifusion/29f369235038133.69657a48248be.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/nutrifusion/f4bd91235038133.69657a4823d72.jpg`, shape: 'square' },
       ] },
-      { type: 'three', items: [
+      { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/nutrifusion/b8cf38235038133.69657a48e95db.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/nutrifusion/09ab90235038133.69657a48e903d.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/nutrifusion/1545de235038133.69657a48e9b61.jpg`, shape: 'square' },
@@ -192,7 +192,7 @@ export const projects = [
     cover: `${ASSET_BASE}portfolio/09-ecco-bella.jpg`,
     intro: 'Beauty campaign shown in three stacked editorial frames.',
     modules: [
-      { type: 'three', items: [
+      { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ecco-bella/a07ef9241887961.696173e7969ae.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/ecco-bella/70ef6b241887961.696173e79626e.jpg`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/ecco-bella/721329241887961.696173e795cf5.jpg`, shape: 'portrait' },
