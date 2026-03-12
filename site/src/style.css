@@ -93,7 +93,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 /* Per-unit style controls */
 .unit--full { width: 100%; }
 .unit--inset {
-  width: min(100%, calc(100% - clamp(3rem, 12vw, 10rem)));
+  width: min(100%, calc(100% - clamp(3rem, 8vw, 10rem)));
   margin-inline: auto;
 }
 .unit-gap--tight { gap: 0.3rem; }
