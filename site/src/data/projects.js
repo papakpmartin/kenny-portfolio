@@ -12,7 +12,7 @@ export const projects = [
       { type: 'full', widthMode: 'full', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/e3bd1b235159869.68d1c9a189085.jpg`, shape: 'landscape' },
       ] },
-      { type: 'six-grid', widthMode: 'full', gapMode: 'tight', items: [
+      { type: 'six-grid', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/5039ca235159869.68d1c9a7af8f1.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/la-county-fair/da7a19235159869.68d1c9a7ade7e.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/la-county-fair/90fb2c235159869.68d1c9a7ad9c3.jpg`, shape: 'square' },
@@ -20,22 +20,22 @@ export const projects = [
         { src: `${ASSET_BASE}projects/la-county-fair/4b112a235159869.68d1c9a7ae290.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/la-county-fair/6f3ca3235159869.68d1c9a7ad207.jpg`, shape: 'square' },
       ] },
-      { type: 'asymmetric-left', widthMode: 'full', gapMode: 'tight', items: [
+      { type: 'asymmetric-left', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/e7637b235159869.68d1c9a22ee9c.jpg`, shape: 'landscape' },
         { src: `${ASSET_BASE}projects/la-county-fair/2fbe46235159869.68d1c9a22f98b.jpg`, shape: 'portrait' },
       ] },
-      { type: 'split', widthMode: 'full', gapMode: 'tight', items: [
+      { type: 'split', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/ee25c3235159869.69657e57ee4ed.jpg`, shape: 'landscape' },
         { src: `${ASSET_BASE}projects/la-county-fair/397c89235159869.69657e57edec5.jpg`, shape: 'landscape' },
       ] },
-      { type: 'full', widthMode: 'full', items: [
+      { type: 'full', widthMode: 'inset', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/319aae235159869.69657e58999e7.jpg`, shape: 'landscape' },
       ] },
-      { type: 'asymmetric-left', widthMode: 'full', gapMode: 'tight', items: [
+      { type: 'asymmetric-left', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/80e211235159869.69657e59367d6.jpg`, shape: 'landscape' },
         { src: `${ASSET_BASE}projects/la-county-fair/b13027235159869.69657e59373d7.jpg`, shape: 'portrait' },
       ] },
-      { type: 'eight-grid', widthMode: 'full', gapMode: 'tight', items: [
+      { type: 'eight-grid', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/30bc76235159869.68d1c9a8e2038.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/la-county-fair/620b38235159869.68d1c9a8dff17.jpg`, shape: 'square' },
         { src: `${ASSET_BASE}projects/la-county-fair/aa70ad235159869.68d1c9a8e2b66.jpg`, shape: 'square' },
