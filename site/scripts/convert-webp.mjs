@@ -4,7 +4,7 @@ import sharp from 'sharp'
 
 const publicDir = path.resolve('public')
 const exts = new Set(['.jpg', '.jpeg', '.png'])
-const responsiveWidths = [640, 1200, 2000]
+const responsiveWidths = [320, 480, 640, 960, 1200, 2000]
 
 async function* walk(dir) {
   for (const entry of await readdir(dir, { withFileTypes: true })) {

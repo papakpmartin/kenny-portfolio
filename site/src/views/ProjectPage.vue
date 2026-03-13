@@ -50,7 +50,7 @@ function asWebp(src) {
 function webpSrcSet(src) {
   const webp = asWebp(src)
   if (!webp) return ''
-  const variants = [640, 1200].map((w) => webp.replace('.webp', `-w${w}.webp`) + ` ${w}w`)
+  const variants = [320, 480, 640, 960, 1200].map((w) => webp.replace('.webp', `-w${w}.webp`) + ` ${w}w`)
   return `${variants.join(', ')}, ${webp} 2000w`
 }
 
