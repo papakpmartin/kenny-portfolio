@@ -8,4 +8,7 @@ const base = process.env.GITHUB_ACTIONS && repoName ? `/${repoName}/` : '/'
 export default defineConfig({
   plugins: [vue()],
   base,
+  server: {
+    allowedHosts: ['ithil-stone.local'],
+  },
 })
