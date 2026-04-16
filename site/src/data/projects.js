@@ -7,7 +7,7 @@ export const projects = [
     category: 'Campaign / Experience',
     cover: `${ASSET_BASE}portfolio/01-la-county-fair.jpg`,
     intro: '',
-    story: `To encourage ticket sales, we created fresh designs for our paid social campaign. The client provided a wonderful branding kit with an abundance of colors, icons, and high-quality photos. I paired each of my favorite photos with its most complementary color. I added their hand-drawn icons to each design. Then I sequenced the images in the most visually-appealing and logical way I could. The client received beautiful, colorful, clear ads that featured many perks of their event.`,
+    story: `We created fresh paid social designs to encourage ticket sales.\n\nThe client supplied a wonderful branding kit — lots of colors, hand-drawn icons, and high-quality photos. I paired each photo with its most complementary color, added their icons, and sequenced everything in the most visually appealing order I could.\n\nThe result was a colorful, clear campaign that featured many perks of the event.`,
     modules: [
       { type: 'full', widthMode: 'inset', items: [
         { src: `${ASSET_BASE}projects/la-county-fair/e3bd1b235159869.68d1c9a189085.jpg`, shape: 'landscape' },
@@ -52,7 +52,7 @@ export const projects = [
     title: 'Imaginarium',
     category: 'Brand / Campaign',
     cover: `${ASSET_BASE}portfolio/02-imaginarium.jpg`,
-    intro: '',
+    story: `The client hosted LED light festivals with interactive rooms, food and drinks, live entertainment, and constantly changing themes. With so many elements to promote, clear messaging was a challenge.\n\nI simplified the copywriting and used text hierarchy to communicate more clearly. I standardized their creatives into reusable templates so each new batch of promotions could be produced efficiently.\n\nThese campaigns boosted ticket sales.`,
     modules: [
       { type: 'full', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/imaginarium/48c324241832025.6960510f0272a.jpg`, shape: 'square' },
@@ -74,7 +74,7 @@ export const projects = [
     title: 'JustCBD',
     category: 'Brand / Packaging',
     cover: `${ASSET_BASE}portfolio/03-justcbd.jpg`,
-    intro: '',
+    story: `The client needed fresh Instagram ads and was open to irreverent, funny messaging. The challenge was striking a balance between irreverent humor and trustworthy messaging.\n\nI enjoyed the playful details here — the peach gummy colors in the curved overlay, the intentional misspelling of "chill," and the simplicity of a one-word ad. The client was happy with them, too.`,
     modules: [
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/justcbd/59134c235038001.696574841cba5.jpg`, shape: 'portrait' },
@@ -88,7 +88,7 @@ export const projects = [
     title: 'GoodCook',
     category: 'Brand / Product',
     cover: `${ASSET_BASE}portfolio/04-goodcook.jpg`,
-    intro: '',
+    story: `We featured recipes made with the client's cookware and bakeware — the primary way we encouraged newsletter subscriptions.\n\nThe design challenge was subtly featuring the kitchenware products without pulling focus from the primary lead gen message.\n\nWe used intentional product cropping and creative text shapes to accomplish this. Using the client's food photography, the designs felt seasonal, fresh, and inviting.`,
     modules: [
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/goodcook/aa76ee241757217.695ee6ec37216.jpg`, shape: 'portrait' },
@@ -112,7 +112,7 @@ export const projects = [
     title: 'CLEARSTEM Skincare',
     category: 'Brand / Digital',
     cover: `${ASSET_BASE}portfolio/05-clearstem.jpg`,
-    intro: '',
+    story: `The client had great creative resources. Our challenge was making these high-quality, complex skincare products approachable for the customer.\n\nWe chose snippets of product details, and we organized them visually to be very simple and clear.\n\nThese ads produced approximately 20x ROAS for the client and became some of their best performers. One of our strategists was still referencing them years later as examples to emulate.`,
     modules: [
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/clearstem-skincare/4a560a235038023.68d1c203af4cc.jpg`, shape: 'portrait' },
@@ -126,7 +126,7 @@ export const projects = [
     title: 'UCR Health',
     category: 'Healthcare / Digital',
     cover: `${ASSET_BASE}portfolio/06-ucr-health.jpg`,
-    intro: '',
+    story: `The average person finds healthcare intimidating. Hospital messaging that connects with me is clear and almost instructional.\n\nI worked directly with the client on their messaging. We used this approach to feature their MyChart portal, giving patients tangible information about booking, prescriptions, and specific types of care.\n\nThey loved the clarity of message and the seamless visual presentation.`,
     modules: [
       { type: 'split', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ucr-health/32dd7f241945529.6962ea40c21c8.png`, shape: 'landscape' },
@@ -145,7 +145,7 @@ export const projects = [
     title: 'International Mission Board',
     category: 'Digital / Storytelling',
     cover: `${ASSET_BASE}portfolio/07-international-mission-board.jpg`,
-    intro: '',
+    story: `I was curious how the client made a tangible impact with the charitable donations they received. So we selected a handful of their donation programs and asked for the specifics of three progressive donations.\n\nThe resulting creatives gave viewers a clear, empowering message — exactly how much money it would take to make a specific positive impact in the world.`,
     modules: [
       { type: 'quad', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/international-mission-board/e50e50241684949.695d9a2700d76.jpg`, shape: 'square' },
@@ -172,7 +172,7 @@ export const projects = [
     title: 'NutriFusion',
     category: 'Brand / Campaign',
     cover: `${ASSET_BASE}portfolio/08-nutrifusion.jpg`,
-    intro: '',
+    story: `These are LinkedIn ads talking to food industry professionals. I was provided with AI-generated design concepts and chose my favorites to improve upon.\n\nI simplified the canvas significantly: a photo of fresh fruit, one strong headline, and a green bar at the bottom with their logo. The client was quite pleased.`,
     modules: [
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/nutrifusion/dcb792235038133.69657a48243fa.jpg`, shape: 'square' },
@@ -191,7 +191,7 @@ export const projects = [
     title: 'Ecco Bella',
     category: 'Beauty / Brand',
     cover: `${ASSET_BASE}portfolio/09-ecco-bella.jpg`,
-    intro: '',
+    story: `At the time, the client was having a bit of a branding identity crisis. Their products were thoughtfully developed, but their ads weren't emphasizing the ingredients — which felt like a big missed opportunity.\n\nI was curious about the ingredients myself, and I figured their customers would be too. I encouraged the client to lead with that story.\n\nThey were happy with the creatives, and ultimately they realized they were more of a supplement health and wellness brand than a beauty brand.`
     modules: [
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ecco-bella/a07ef9241887961.696173e7969ae.jpg`, shape: 'portrait' },
