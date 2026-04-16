@@ -191,7 +191,7 @@ export const projects = [
     title: 'Ecco Bella',
     category: 'Beauty / Brand',
     cover: `${ASSET_BASE}portfolio/09-ecco-bella.jpg`,
-    story: `At the time, the client was having a bit of a branding identity crisis. Their products were thoughtfully developed, but their ads weren't emphasizing the ingredients — which felt like a big missed opportunity.\n\nI was curious about the ingredients myself, and I figured their customers would be too. I encouraged the client to lead with that story.\n\nThey were happy with the creatives, and ultimately they realized they were more of a supplement health and wellness brand than a beauty brand.`
+    story: `At the time, the client was having a bit of a branding identity crisis. Their products were thoughtfully developed, but their ads weren't emphasizing the ingredients — which felt like a big missed opportunity.\n\nI was curious about the ingredients myself, and I figured their customers would be too. I encouraged the client to lead with that story.\n\nThey were happy with the creatives, and ultimately they realized they were more of a supplement health and wellness brand than a beauty brand.`,
     modules: [
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ecco-bella/a07ef9241887961.696173e7969ae.jpg`, shape: 'portrait' },
