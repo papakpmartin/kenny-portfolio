@@ -4,7 +4,7 @@ export const projects = [
   {
     slug: 'la-county-fair',
     title: 'LA County Fair',
-    category: 'Campaign / Experience',
+    category: 'Events & Entertainment',
     cover: `${ASSET_BASE}portfolio/01-la-county-fair.jpg`,
     intro: '',
     story: `We created fresh paid social designs to encourage ticket sales.\n\nThe client supplied a wonderful branding kit — lots of colors, hand-drawn icons, and high-quality photos. I paired each photo with its most complementary color, added their icons, and sequenced everything in the most visually appealing order I could.\n\nThe result was a colorful, clear campaign that featured many perks of the event.`,
@@ -50,7 +50,7 @@ export const projects = [
   {
     slug: 'imaginarium',
     title: 'Imaginarium',
-    category: 'Brand / Campaign',
+    category: 'Events & Entertainment',
     cover: `${ASSET_BASE}portfolio/02-imaginarium.jpg`,
     story: `The client hosted LED light festivals with interactive rooms, food and drinks, live entertainment, and constantly changing themes. With so many elements to promote, clear messaging was a challenge.\n\nI simplified the copywriting and used text hierarchy to communicate more clearly. I standardized their creatives into reusable templates so each new batch of promotions could be produced efficiently.\n\nThese campaigns boosted ticket sales.`,
     modules: [
@@ -72,7 +72,7 @@ export const projects = [
   {
     slug: 'justcbd',
     title: 'JustCBD',
-    category: 'Brand / Packaging',
+    category: 'Cannabis/CBD',
     cover: `${ASSET_BASE}portfolio/03-justcbd.jpg`,
     story: `The client needed fresh Instagram ads and was open to irreverent, funny messaging. The challenge was striking a balance between irreverent humor and trustworthy messaging.\n\nI enjoyed the playful details here — the peach gummy colors in the curved overlay, the intentional misspelling of "chill," and the simplicity of a one-word ad. The client was happy with them, too.`,
     modules: [
@@ -86,7 +86,7 @@ export const projects = [
   {
     slug: 'goodcook',
     title: 'GoodCook',
-    category: 'Brand / Product',
+    category: 'Kitchenware/CPG',
     cover: `${ASSET_BASE}portfolio/04-goodcook.jpg`,
     story: `We featured recipes made with the client's cookware and bakeware — the primary way we encouraged newsletter subscriptions.\n\nThe design challenge was subtly featuring the kitchenware products without pulling focus from the primary lead gen message.\n\nWe used intentional product cropping and creative text shapes to accomplish this. Using the client's food photography, the designs felt seasonal, fresh, and inviting.`,
     modules: [
@@ -110,7 +110,7 @@ export const projects = [
   {
     slug: 'clearstem-skincare',
     title: 'CLEARSTEM Skincare',
-    category: 'Brand / Digital',
+    category: 'Beauty & Cosmetics',
     cover: `${ASSET_BASE}portfolio/05-clearstem.jpg`,
     story: `The client had great creative resources. Our challenge was making these high-quality, complex skincare products approachable for the customer.\n\nWe chose snippets of product details, and we organized them visually to be very simple and clear.\n\nThese ads produced approximately 20x ROAS for the client and became some of their best performers. One of our strategists was still referencing them years later as examples to emulate.`,
     modules: [
@@ -124,7 +124,7 @@ export const projects = [
   {
     slug: 'ucr-health',
     title: 'UCR Health',
-    category: 'Healthcare / Digital',
+    category: 'Healthcare',
     cover: `${ASSET_BASE}portfolio/06-ucr-health.jpg`,
     story: `The average person finds healthcare intimidating. Hospital messaging that connects with me is clear and almost instructional.\n\nI worked directly with the client on their messaging. We used this approach to feature their MyChart portal, giving patients tangible information about booking, prescriptions, and specific types of care.\n\nThey loved the clarity of message and the seamless visual presentation.`,
     modules: [
@@ -143,7 +143,7 @@ export const projects = [
   {
     slug: 'international-mission-board',
     title: 'International Mission Board',
-    category: 'Digital / Storytelling',
+    category: 'Non-Profit',
     cover: `${ASSET_BASE}portfolio/07-international-mission-board.jpg`,
     story: `I was curious how the client made a tangible impact with the charitable donations they received. So we selected a handful of their donation programs and asked for the specifics of three progressive donations.\n\nThe resulting creatives gave viewers a clear, empowering message — exactly how much money it would take to make a specific positive impact in the world.`,
     modules: [
@@ -170,7 +170,7 @@ export const projects = [
   {
     slug: 'nutrifusion',
     title: 'NutriFusion',
-    category: 'Brand / Campaign',
+    category: 'Food & Beverage',
     cover: `${ASSET_BASE}portfolio/08-nutrifusion.jpg`,
     story: `These are LinkedIn ads talking to food industry professionals. I was provided with AI-generated design concepts and chose my favorites to improve upon.\n\nI simplified the canvas significantly: a photo of fresh fruit, one strong headline, and a green bar at the bottom with their logo. The client was quite pleased.`,
     modules: [
@@ -189,7 +189,7 @@ export const projects = [
   {
     slug: 'ecco-bella',
     title: 'Ecco Bella',
-    category: 'Beauty / Brand',
+    category: 'Health & Wellness, Beauty',
     cover: `${ASSET_BASE}portfolio/09-ecco-bella.jpg`,
     story: `At the time, the client was having a bit of a branding identity crisis. Their products were thoughtfully developed, but their ads weren't emphasizing the ingredients — which felt like a big missed opportunity.\n\nI was curious about the ingredients myself, and I figured their customers would be too. I encouraged the client to lead with that story.\n\nThey were happy with the creatives, and ultimately they realized they were more of a supplement health and wellness brand than a beauty brand.`,
     modules: [
