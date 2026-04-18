@@ -1,8 +1,6 @@
 <template>
-  <section class="hero" aria-labelledby="hero-title">
-    <h1 id="hero-title">Designing clear, expressive digital experiences.</h1>
-    <p class="subhead">This is a portfolio of my graphic design work for Adtaxi, a digital marketing agency in Los Angeles. Our work spans a wide array of industries.</p>
-    <p class="subhead">I help clients find their voice and standardize their creatives — so they have polished designs that can be easily updated for new promotions at a lower cost.</p>
+  <section class="hero" aria-label="Portfolio introduction">
+    <p class="subhead">This is a portfolio of my graphic design work for Adtaxi, a digital marketing agency in Los Angeles. Our work spans a wide array of industries. I help clients find their voice and standardize their creatives so they have polished designs that can be easily updated for new promotions at a lower cost.</p>
   </section>
 
   <section class="project-grid" aria-label="Projects">
