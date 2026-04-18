@@ -129,14 +129,16 @@ export const projects = [
     story: `The average person finds healthcare intimidating. Hospital messaging that connects with me is clear and almost instructional.\n\nI worked directly with the client on their messaging. We used this approach to feature their MyChart portal, giving patients tangible information about booking, prescriptions, and specific types of care.\n\nThey loved the clarity of message and the seamless visual presentation.`,
     modules: [
       { type: 'split', widthMode: 'inset', gapMode: 'tight', items: [
+        { src: `${ASSET_BASE}projects/ucr-health/53bf78241945529.6962ea423f6cf.png`, shape: 'portrait' },
+        { src: `${ASSET_BASE}projects/ucr-health/0cfc82241945529.6962ea423ebc5.png`, shape: 'portrait' },
+      ] },
+      { type: 'split', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ucr-health/32dd7f241945529.6962ea40c21c8.png`, shape: 'landscape' },
         { src: `${ASSET_BASE}projects/ucr-health/941d57241945529.6962ea40c1269.png`, shape: 'landscape' },
       ] },
-      { type: 'quad', widthMode: 'inset', gapMode: 'tight', items: [
+      { type: 'split', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ucr-health/08f6e5241945529.6965831a9031b.png`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/ucr-health/acefa4241945529.6965831a8fadf.png`, shape: 'portrait' },
-        { src: `${ASSET_BASE}projects/ucr-health/53bf78241945529.6962ea423f6cf.png`, shape: 'portrait' },
-        { src: `${ASSET_BASE}projects/ucr-health/0cfc82241945529.6962ea423ebc5.png`, shape: 'portrait' },
       ] },
     ]
   },
