@@ -7,6 +7,7 @@ This file stores durable project decisions that should survive chat history.
 - Telegram is the coordination layer; this repo is the source of truth.
 - Project chat scope is intentionally limited to `projects/kenny-portfolio/`.
 - Durable decisions should be written here rather than left only in Telegram.
+- For Kenny-requested site changes, do not send a completion update until the change is live on the deployed site.
 
 ## Stack
 
