@@ -132,7 +132,7 @@ export const projects = [
         { src: `${ASSET_BASE}projects/ucr-health/53bf78241945529.6962ea423f6cf.png`, shape: 'portrait' },
         { src: `${ASSET_BASE}projects/ucr-health/0cfc82241945529.6962ea423ebc5.png`, shape: 'portrait' },
       ] },
-      { type: 'split', widthMode: 'inset', gapMode: 'tight', items: [
+      { type: 'stack', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ucr-health/32dd7f241945529.6962ea40c21c8.png`, shape: 'landscape' },
         { src: `${ASSET_BASE}projects/ucr-health/941d57241945529.6962ea40c1269.png`, shape: 'landscape' },
       ] },
