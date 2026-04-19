@@ -57,10 +57,9 @@ export const projects = [
       { type: 'full', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/imaginarium/48c324241832025.6960510f0272a.jpg`, shape: 'square' },
       ] },
-      { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
-        { src: `${ASSET_BASE}projects/imaginarium/8b5d5a241832025.6960510f86de9.jpg`, shape: 'square' },
-        { src: `${ASSET_BASE}projects/imaginarium/bc5719241832025.6960510f86901.jpg`, shape: 'square' },
-        { src: `${ASSET_BASE}projects/imaginarium/753c41241832025.6960510f8620b.jpg`, shape: 'square' },
+      { type: 'stack', widthMode: 'inset', gapMode: 'tight', items: [
+        { src: `${ASSET_BASE}projects/imaginarium/8b5d5a241832025.6960510f86de9.jpg`, shape: 'landscape' },
+        { src: `${ASSET_BASE}projects/imaginarium/bc5719241832025.6960510f86901.jpg`, shape: 'landscape' },
       ] },
       { type: 'three', widthMode: 'inset', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/imaginarium/1d8544241832025.696051105e263.jpg`, shape: 'portrait' },
