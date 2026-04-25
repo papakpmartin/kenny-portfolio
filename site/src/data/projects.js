@@ -126,7 +126,7 @@ export const projects = [
     title: 'UCR Health',
     category: 'Healthcare',
     cover: `${ASSET_BASE}portfolio/06-ucr-health.jpg`,
-    story: `The average person finds healthcare intimidating. Hospital messaging that connects with me is clear and almost instructional.\n\nI worked directly with the client on their messaging. We used this approach to feature their MyChart portal, giving patients tangible information about booking, prescriptions, and specific types of care.\n\nThey loved the clarity of message and the seamless visual presentation.`,
+    story: `The client needed messaging that was approachable, clear, and instructional to attract patients who might otherwise feel unconfident in the healthcare space. We decided to feature their MyChart portal, giving patients tangible information about booking, prescriptions, and specific types of care. The client loved the clarity of message and the seamless visual presentation.`,
     modules: [
       { type: 'split', widthMode: 'half', gapMode: 'tight', items: [
         { src: `${ASSET_BASE}projects/ucr-health/53bf78241945529.6962ea423f6cf.png`, shape: 'portrait' },
