@@ -126,9 +126,9 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
   grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
 }
 
-/* UCR Health: increase side margins across all three units */
+/* UCR Health: increase side margins across all three units (60% width = 50% bigger) */
 .project-page--ucr-health .unit--half {
-  width: min(40%, calc((100% - clamp(3rem, 8vw, 10rem)) * 0.4));
+  width: min(60%, calc((100% - clamp(3rem, 8vw, 10rem)) * 0.6));
 }
 
 /* LA-only tuning for new full/inset + spacing controls */
