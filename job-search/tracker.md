@@ -25,6 +25,11 @@
 
 | Company | Role | Source | Status | Notes | Date Added |
 |---------|------|--------|--------|-------|------------|
+| Target | Lead Creative Strategist | Live search evidence, LinkedIn / Built In / ZipRecruiter / Ladders | Prioritize | Strongest Twin Cities hit found on 2026-04-24, Minneapolis, salary evidence surfaced at $92K-$166K | 2026-04-24 |
+| Target | Senior Creative Strategist | Live search evidence, FlexJobs snippet | Monitor | Local-adjacent Target creative strategy lead, comp not confirmed in snippet | 2026-04-24 |
+| Target | Lead Change Manager, Creative Enablement | Live search evidence, Target Workday result | Secondary | Creative-operations adjacent, worth keeping on radar if pure creative-lead volume stays thin | 2026-04-24 |
+| Liftoff | Senior Creative Strategist | Built In Minnesota | Remote fallback | Telecommute role, $99K-$125K, good salary-fit backup outside strict Twin Cities lane | 2026-04-24 |
+| Walker Sands | Account Director | Built In Minnesota | Remote fallback | Related account/creative leadership track, $100K-$104.5K | 2026-04-24 |
 
 ---
 
@@ -40,6 +45,7 @@
 | Date | Activity | Result |
 |------|----------|--------|
 | 2026-04-18 | Refreshed role positioning, headline guidance, LinkedIn about draft, and cover note template | See `materials-refresh-2026-04-18.md` |
+| 2026-04-24 | Refreshed Twin Cities creative-role research with a fresh live search pass | See `openings-2026-04-24.md`; strongest local hit was Target `Lead Creative Strategist` in Minneapolis |
 
 ---
 
@@ -47,8 +53,9 @@
 
 - Add Kenny's LinkedIn profile URL and align headline with the refreshed positioning
 - Create one achievement-focused resume variant once quantified outcomes are available
-- Start filling the Opportunities table with real postings and statuses
+- Apply or save `Target, Lead Creative Strategist` first, then monitor Target's creative-strategy lane twice weekly
 - Add 5 to 10 target contacts across agencies and in-house teams
+- Expand searches to `Creative Strategist`, `Brand Creative Lead`, and `Account Director` if exact local title volume stays thin
 
 ---
 

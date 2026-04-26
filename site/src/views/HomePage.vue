@@ -41,8 +41,9 @@ function webpSrcSet(src) {
 }
 
 function cardZoomClass(slug) {
-  if (slug === 'ecco-bella') return 'zoom--1'
-  if (slug === 'ucr-health') return 'zoom--3'
+  if (slug === 'ecco-bella') return 'zoom--2'
+  if (slug === 'ucr-health') return 'zoom--6'
+  if (slug === 'clearstem-skincare') return 'zoom--2'
   return ''
 }
 </script>
