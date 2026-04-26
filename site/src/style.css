@@ -74,7 +74,7 @@ h1 { margin: 0.6rem 0 0.75rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height:
 
 /* Card-specific zoom levels */
 .project-card.zoom--2 .thumb { transform: scale(1.02); }
-.project-card.zoom--6 .thumb { transform: scale(1.06); }
+.project-card.zoom--6 .thumb { transform: scale(1.08); }
 .project-card.zoom--2 .thumb,
 .project-card.zoom--6 .thumb { transform-origin: center center; }
 .meta { padding: 0.9rem 0.95rem 1rem; text-align: center; }
