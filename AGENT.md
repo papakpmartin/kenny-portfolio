@@ -23,6 +23,9 @@ If web work is involved, hand off to `fullstack` agent. Report: "Handed off to f
 - **Push to `main` triggers GitHub Actions** → deploys to GitHub Pages
 - GitHub Pages CDN can take **5-10 minutes** to propagate
 - Don't check "too soon" — allow time for the deploy to complete
+- **CRITICAL**: The Action does a **fresh build** (`npm ci && npm run build`) — it does NOT use committed `dist/` files
+- The `site/dist/` directory is **gitignored** — local builds don't affect deployment
+- Only the GitHub Action build matters for the live site
 
 ## Workflow
 
