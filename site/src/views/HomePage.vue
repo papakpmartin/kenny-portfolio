@@ -9,6 +9,7 @@
       v-for="project in projects"
       :key="project.slug"
       class="project-card"
+      :class="cardZoomClass(project.slug)"
       :to="`/project/${project.slug}`"
       :aria-label="`Open case study: ${project.title}`"
     >
@@ -37,5 +38,11 @@ function webpSrcSet(src) {
   if (!webp) return ''
   const variants = [320, 480, 640, 960, 1200].map((w) => webp.replace('.webp', `-w${w}.webp`) + ` ${w}w`)
   return `${variants.join(', ')}, ${webp} 2000w`
+}
+
+function cardZoomClass(slug) {
+  if (slug === 'ecco-bella') return 'zoom--1'
+  if (slug === 'ucr-health') return 'zoom--3'
+  return ''
 }
 </script>
